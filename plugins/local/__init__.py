@@ -6,6 +6,14 @@ def run (yaml_config):
     source_path = yaml_config["source"][0]["sourceAbsolutePath"]
     destination_path = yaml_config["source"][0]["destinationAbsolutePath"]
 
+    if not(pathlib.Path(source_path).exists()):
+        print("Source directory does not exist.")
+        exit(1)
+    elif not(pathlib.Path(destination_path).exists()):
+        print("Destination directory does not exist.")
+        exit(1)
+
+
     def list_objects(dir_path):
         files = []
         dirs = []

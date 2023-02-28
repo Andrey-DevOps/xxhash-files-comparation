@@ -22,7 +22,7 @@ if __name__ == "__main__":
         with open(config_path, "r") as f:
             yaml_config = yaml.load(f, Loader=yaml.FullLoader)
     else:
-        config_path = str(pathlib.Path(str((modules['__main__'].__file__))).parents[0])+"/config.yaml"
+        config_path = str(pathlib.Path(str((modules['__main__'].__file__))).parents[0])+"/config-local-example.yaml"
         with open(config_path, "r") as f:
             yaml_config = yaml.load(f, Loader=yaml.FullLoader)
     load_plugin(yaml_config)
