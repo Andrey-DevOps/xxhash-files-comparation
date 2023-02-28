@@ -1,5 +1,0 @@
-pathlib==1.0.1
-pyasn1==0.4.8
-pysmb==1.2.9.1
-PySmbClient==0.1.5
-tqdm==4.64.1
