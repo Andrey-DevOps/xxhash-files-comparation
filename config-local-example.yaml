@@ -1,4 +1,4 @@
-source:
+config:
   - type: local
     sourceAbsolutePath: /Users/andreyyurevich/PycharmProjects/xxhash-files-comparation/source
     destinationAbsolutePath: /Users/andreyyurevich/PycharmProjects/xxhash-files-comparation/dest

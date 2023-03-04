@@ -3,8 +3,8 @@ import re
 from ubelt import hash_file
 
 def run (yaml_config):
-    source_path = yaml_config["source"][0]["sourceAbsolutePath"]
-    destination_path = yaml_config["source"][0]["destinationAbsolutePath"]
+    source_path = yaml_config["config"][0]["sourceAbsolutePath"]
+    destination_path = yaml_config["config"][0]["destinationAbsolutePath"]
 
     if not(pathlib.Path(source_path).exists()):
         print("Source directory does not exist.")

@@ -2,3 +2,4 @@ pathlib
 xxhash
 ubelt
 PyYaml
+paramiko

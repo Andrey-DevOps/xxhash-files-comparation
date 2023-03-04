@@ -1,0 +1,12 @@
+config:
+  - type: ssh
+    credentials:
+      hostname: 192.168.205.3
+      port: 22
+      username: ubuntu
+      password:
+      privateKeyAbsolutePath: /Users/andreyyurevich/.ssh/id_rsa
+    sourceAbsolutePath: /home/ubuntu/src
+    destinationAbsolutePath: /Users/andreyyurevich/PycharmProjects/xxhash-files-comparation/dest
+
+
